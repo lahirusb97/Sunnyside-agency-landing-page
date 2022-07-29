@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght,SOFT@9..144,700,0;9..144,900,0;9..144,900,100&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="./style/style.css">
+
+<title>Frontend Mentor | Sunnyside agency landing page</title>
+
+
+
+
+<div class="background_color">
+ <div class="wrapper">
+
+  <header>
+
+     <nav>
+      <img src="./images/logo.svg" alt="">
+      <button class="toggle-btn"><img src="./images/icon-hamburger.svg" alt=""></button>
+      
+        <div class="path show_navbar">
+      <ul class="top_nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li class="contact"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    
+    </nav> 
+    <h1> We are creatives</h1>
+    <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrow">
+  </header>
+
+
+  <section class="section1" id="about">
+    
+      <!-- <article class="article-text">
+        <h1 class="title"> Transform your brand</h1>
+        <p>  We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a href="">  Learn more</a>
+      </article> -->
+ 
+    <picture  class="egg-img sec1_img">
+      <source media="(min-width:900px)" srcset="images/desktop/image-transform.jpg">
+      <source media="(max-width:900px)" srcset="images/mobile/image-transform.jpg">
+      <img src="images/desktop/image-transform.jpg" alt="">
+    </picture>
+
+    <article class="article-text sec1">
+      <h1 class="title"> Transform your brand</h1>
+      <p>  We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <a href="">  Learn more</a>
+    </article>
+
+  </section>
+
+  <section class="section1">
+
+    <picture  class="standout-img">
+      <source media="(min-width:900px)" srcset="images/desktop/image-stand-out.jpg">
+      <source media="(max-width:900px)" srcset="images/mobile/image-stand-out.jpg">
+      <img src="images/desktop/image-stand-out.jpg" alt="">
+    </picture>
+
+    <article class="article-text">
+      <h1>Stand out to the right audience</h1>
+      <p>  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+      </p>
+      <a href="">  Learn more</a>
+    </article>
+  </section>
+
+  <div class="section1_2parent" id="service">
+    <section class="section2">
+      
+      <picture  class="graphic-img">
+        <source media="(min-width:900px)" srcset="images/desktop/image-graphic-design.jpg">
+        <source media="(max-width:900px)" srcset="images/mobile/image-graphic-design.jpg">
+        <img src="images/desktop/image-graphic-design.jpg" alt="">
+      </picture>
+
+      <article class="section2-text">
+        <h1>Graphic Design</h1>
+        <p> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </p>
+      </article>
+
+
+    </section>
+
+
+    <section class="section2" >
+
+      <picture  class="graphic-img">
+        <source media="(min-width:900px)" srcset="images/desktop/image-photography.jpg">
+        <source media="(max-width:900px)" srcset="images/mobile/image-photography.jpg">
+        <img src="images/desktop/image-photography.jpg" alt="">
+      </picture>
+
+      <article class="section2-text">
+        <h1> Photography</h1>
+        <p>  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+      </article>
+
+
+    </section>
+  </div>
+
+  <section class="client" id="project">
+    <h1> Client testimonials</h1>
+
+<!-- person1 -->
+    <div class="person_list">
+      <article>
+        <img src="./images/image-emily.jpg" alt="emily">
+        <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        
+        <h4>Emily R.</h4>
+        <h6>Marketing Director</h6>
+      
+      </article>
+
+  <!-- person2 -->
+      <article>
+        <img src="./images/image-thomas.jpg" alt="thomas">
+        <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+         
+          
+        </p>
+        
+        <h4>Thomas S.</h4>
+        <h6>Chief Operating Officer</h6>
+      
+      </article>
+
+  <!-- person3 -->
+      <article>
+        <img src="./images/image-jennie.jpg" alt="jennie">
+        <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+        
+        <h4>Jennie F.</h4>
+        <h6>Business Owner</h6>
+      
+      </article>
+    </div>
+  </section>
+
+
+  <footer id="contact">
+    <div class="images">
+      <picture  class="milkbottles-img">
+        <source media="(min-width:900px)" srcset="images/desktop/image-gallery-milkbottles.jpg">
+        <source media="(max-width:900px)" srcset="images/mobile/image-gallery-milkbottles.jpg">
+        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+      </picture>
+
+      <picture  class="orange-img">
+        <source media="(min-width:900px)" srcset="images/desktop/image-gallery-orange.jpg">
+        <source media="(max-width:900px)" srcset="images/mobile/image-gallery-orange.jpg">
+        <img src="images/desktop/image-gallery-orange.jpg" alt="">
+      </picture>
+
+      <picture  class="cone-img">
+        <source media="(min-width:900px)" srcset="images/desktop/image-gallery-cone.jpg">
+        <source media="(max-width:900px)" srcset="images/mobile/image-gallery-cone.jpg">
+        <img src="images/desktop/image-gallery-cone.jpg" alt="">
+      </picture>
+
+      <picture  class="sugarcubes-img">
+        <source media="(min-width:900px)" srcset="images/desktop/image-gallery-sugarcubes.jpg">
+        <source media="(max-width:900px)" srcset="images/mobile/image-gallery-sugarcubes.jpg">
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="">
+      </picture>
+      <div class="milkbottle"></div>
+      <div class="orange"></div>
+      <div class="cone"></div>
+      <div class="sugarcubes"></div>
+      <!-- <img src="images/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img src="images/desktop/image-gallery-orange.jpg" alt="">
+      <img src="images/desktop/image-gallery-cone.jpg" alt="">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt=""> -->
+
+    </div>
+
+    <address>
+      <h1>sunnyside</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#project">Projects</a></li>
+      </ul>
+      <div class="social_media">
+        <a href=""><img src="./images/icon-facebook.svg" alt=""></a>
+        <a href=""><img src="./images/icon-instagram.svg" alt=""></a>
+        <a href=""><img src="./images/icon-twitter.svg" alt=""></a>
+        <a href=""><img src="./images/icon-pinterest.svg" alt=""></a>
+      </div>
+    </address>
+  </footer>
+  </div>
+</div>
+  
+  
+  
+  
+  
+  
+  <script src="./js/js.js"></script>
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+
+
+
+<!-- </section>
+<picture  class="main-img">
+  <source media="(min-width:900px)" srcset="images/image-hero-desktop.png">
+  <source media="(max-width:900px)" srcset="images/image-hero-mobile.png">
+  <img src="images/image-hero-desktop.png" alt="">
+</picture>
+ -->
+
+  <!-- About
+  Services
+  Projects
+  Contact
+
+  We are creatives
+
+  Transform your brand
+
+  We are a full-service creative agency specializing in helping brands grow fast. 
+  Engage your clients through compelling visuals that do most of the marketing for you.
+
+  Learn more
+
+  Stand out to the right audience
+
+  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+
+  Learn more
+
+  Graphic design
+  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+
+  Photography
+  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+
+  Client testimonials
+
+  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+  Emily R.
+  Marketing Director
+
+  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+  Thomas S.
+  Chief Operating Officer
+
+  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+  Jennie F.
+  Business Owner
+
+  About
+  Services
+  Projects
+  Contact -->
+
+
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
